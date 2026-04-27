@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* ===== SIDEBAR ===== */
+#selfintro {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    height: 100vh;
+    width: 260px;
+
+    background-color: #0f172a;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 25px;
+}
+
+/* Profile */
+#pfp img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #40b9e9;
+}
+
+/* Sidebar text */
+#selfintro p {
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.6;
+    padding: 6px 10px;
+    border-radius: 6px;
+}
+
+#selfintro p:hover {
+    background-color: #1e293b;
+}
+
+/* ===== NAVBAR ===== */
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 260px;
+
+    height: 60px;
+    width: calc(100% - 260px);
+
+    background-color: black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Navbar links */
+#widthlink a {
+    display: inline-block;
+    margin: 0 40px;
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(65, 241, 197);
+    transition: all 0.25s ease, color 0.25s ease;
+}
+
+#widthlink a:hover {
+    transform: scale(1.24);
+    color: rgb(211, 65, 7);
+}
+
+#content1,
+#content2 {
+    margin-left: 280px;   
+    margin-top: 60px;     
+    padding: 20px;
+}
+
+
+pre {
+    font-size: 15px;
+    line-height: 1.6;
+    white-space: pre-wrap;
+}
+
+#contactinfo a{
+    text-decoration: none;
+    color: white;
+}
+
+#content3{
+    position:absolute;
+    top:350px;
+    left:300px;
+    Color:rgb(136, 70, 70);
+}
